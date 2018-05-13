@@ -6,6 +6,8 @@ import getEnabled from './get-enabled';
 import isFeatureIncluded from './is-feature-included';
 import updateFeaturesWithQuery from './update-features-with-query';
 
+export { parseQuery } from './parse-query';
+
 export {
   withFeatures,
   configureFeature,
